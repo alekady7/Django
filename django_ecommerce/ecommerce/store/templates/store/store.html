@@ -1,0 +1,43 @@
+{% extends "store/main.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'images/placeholder.png' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Product</strong></h5>
+                    <button href="#" class="btn btn-outline-secondary">Add to Cart</button>
+                    <button href="#" class="btn btn-outline-success">View</button>
+                    <h4 style="display: inline-block; float: right"><strong>$20</strong></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'images/placeholder.png' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Product</strong></h5>
+                    <button href="#" class="btn btn-outline-secondary">Add to Cart</button>
+                    <button href="#" class="btn btn-outline-success">View</button>
+                    <h4 style="display: inline-block; float: right"><strong>$15</strong></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'images/placeholder.png' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Product</strong></h5>
+                    <button href="#" class="btn btn-outline-secondary">Add to Cart</button>
+                    <button href="#" class="btn btn-outline-success">View</button>
+                    <h4 style="display: inline-block; float: right"><strong>$10</strong></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
